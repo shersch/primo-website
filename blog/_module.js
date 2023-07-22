@@ -4462,6 +4462,23 @@ function create_fragment$5(ctx) {
 					{
 						"date": "July 22, 2023",
 						"link": {
+							"url": "/blog/article3",
+							"label": "Pulumi > Terraform"
+						},
+						"thumbnail": {
+							"alt": "",
+							"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1690034731474ivan-bandura-Wv2U24G2F78-unsplash.jpg",
+							"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1690034731474ivan-bandura-Wv2U24G2F78-unsplash.jpg",
+							"size": 4080
+						},
+						"description": {
+							"html": "<p>Maybe the \"industry standard\" just isn't enough.</p>",
+							"markdown": "Maybe the \"industry standard\" just isn't enough."
+						}
+					},
+					{
+						"date": "July 22, 2023",
+						"link": {
 							"url": "/blog/article1",
 							"label": "Where do I begin?",
 							"active": false

@@ -8343,8 +8343,8 @@ function create_fragment$7(ctx) {
 					"url": "https://images.unsplash.com/photo-1577717707588-58e49821e851?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
 					"size": null
 				},
-				title: "Article",
-				description: "This is an article discussing the merits of something or another."
+				title: "Git Gud",
+				description: "Why we chose GitLab."
 			}
 		});
 
@@ -8362,8 +8362,8 @@ function create_fragment$7(ctx) {
 					"url": "https://images.unsplash.com/photo-1577717707588-58e49821e851?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
 					"size": null
 				},
-				title: "Article",
-				description: "This is an article discussing the merits of something or another.",
+				title: "Git Gud",
+				description: "Why we chose GitLab.",
 				logo: {
 					"image": {
 						"alt": "",
@@ -8399,8 +8399,8 @@ function create_fragment$7(ctx) {
 					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1690031511676pankaj-patel-ZV_64LdGoao-unsplash.jpg",
 					"size": 2378
 				},
-				title: "Article",
-				description: "This is an article discussing the merits of something or another.",
+				title: "Git Gud",
+				description: "Why we chose GitLab.",
 				superhead: "JULY 22, 2023 ",
 				heading: "Git Gud"
 			}
@@ -8420,8 +8420,8 @@ function create_fragment$7(ctx) {
 					"url": "https://images.unsplash.com/photo-1577717707588-58e49821e851?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
 					"size": null
 				},
-				title: "Article",
-				description: "This is an article discussing the merits of something or another.",
+				title: "Git Gud",
+				description: "Why we chose GitLab.",
 				content: {
 					"html": "<h1 id=\"anewhomeforcode\">A new home for code</h1>\n<p>TTI up until now has been using GitHub to house all of their code, and DeployHQ to deploy it to their servers.  Before I was even hired, everyone was on board to move to GitLab.  I love GitLab.  At the very minimum, I enjoy any platform that consolidates CI/CD and code repositories.  Gitea, for example, is just a code repository, so that means you're deploying at LEAST one other application, and probably whatever build agent it requires.  GitLab, GitHub, and Azure DevOps at least provide everything under one roof.  I'm not sure anyone on earth would actually choose to run Jenkins at this point.  As nice as it is that AWS provides CodeCommit, CodeBuild, and CodeDeploy, they completely disregard UI/UX, which is par for the course for AWS.  Imagine telling your developers and their managers that there's no UI for managing merge requests or browsing through code.  No thanks.  Anyway, I really wanted to deploy GitLab in a container, but there really isn't a lot of support for it in AWS.  So after some trial and failure, I resigned to doing it the old fashioned way: EC2.  Although the database is on RDS of course.  For now, there is an EC2 instance that runs GitLab, and an EC2 instance that runs the GitLab Runner.  They are able to communicate over HTTPS, and only because of their security group; they can't even reach other for SSH.  Everything</p>",
 					"markdown": "# A new home for code\nTTI up until now has been using GitHub to house all of their code, and DeployHQ to deploy it to their servers.  Before I was even hired, everyone was on board to move to GitLab.  I love GitLab.  At the very minimum, I enjoy any platform that consolidates CI/CD and code repositories.  Gitea, for example, is just a code repository, so that means you're deploying at LEAST one other application, and probably whatever build agent it requires.  GitLab, GitHub, and Azure DevOps at least provide everything under one roof.  I'm not sure anyone on earth would actually choose to run Jenkins at this point.  As nice as it is that AWS provides CodeCommit, CodeBuild, and CodeDeploy, they completely disregard UI/UX, which is par for the course for AWS.  Imagine telling your developers and their managers that there's no UI for managing merge requests or browsing through code.  No thanks.  Anyway, I really wanted to deploy GitLab in a container, but there really isn't a lot of support for it in AWS.  So after some trial and failure, I resigned to doing it the old fashioned way: EC2.  Although the database is on RDS of course.  For now, there is an EC2 instance that runs GitLab, and an EC2 instance that runs the GitLab Runner.  They are able to communicate over HTTPS, and only because of their security group; they can't even reach other for SSH.  Everything"
@@ -8443,8 +8443,8 @@ function create_fragment$7(ctx) {
 					"url": "https://images.unsplash.com/photo-1577717707588-58e49821e851?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
 					"size": null
 				},
-				title: "Article",
-				description: "This is an article discussing the merits of something or another.",
+				title: "Git Gud",
+				description: "Why we chose GitLab.",
 				heading: "Sign up to get weekly blog entires about X topic ",
 				form: {
 					"endpoint": "https://formsubmit.co/your@email.com",
@@ -8470,8 +8470,8 @@ function create_fragment$7(ctx) {
 					"url": "https://images.unsplash.com/photo-1577717707588-58e49821e851?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
 					"size": null
 				},
-				title: "Article",
-				description: "This is an article discussing the merits of something or another.",
+				title: "Git Gud",
+				description: "Why we chose GitLab.",
 				heading: "",
 				email: "",
 				social_links: [
@@ -8509,8 +8509,8 @@ function create_fragment$7(ctx) {
 					"url": "https://images.unsplash.com/photo-1577717707588-58e49821e851?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
 					"size": null
 				},
-				title: "Article",
-				description: "This is an article discussing the merits of something or another."
+				title: "Git Gud",
+				description: "Why we chose GitLab."
 			}
 		});
 
