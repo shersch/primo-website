@@ -4117,7 +4117,7 @@ function create_fragment$4(ctx) {
 			attr(ul, "class", "items svelte-10jylfj");
 			attr(section, "class", "section-container svelte-10jylfj");
 			attr(div, "class", "section");
-			attr(div, "id", "section-e2725ce3");
+			attr(div, "id", "section-e7fa4791");
 		},
 		m(target, anchor) {
 			insert_hydration(target, div, anchor);
@@ -4212,7 +4212,7 @@ function get_each_context$2(ctx, list, i) {
 	return child_ctx;
 }
 
-// (73:8) {#each social_links as {link, icon}}
+// (72:8) {#each social_links as {link, icon}}
 function create_each_block$2(ctx) {
 	let li;
 	let a;
@@ -4296,16 +4296,11 @@ function create_fragment$5(ctx) {
 	let hr;
 	let t0;
 	let div0;
-	let span0;
+	let span;
 	let t1;
 	let t2_value = new Date().getFullYear() + "";
 	let t2;
 	let t3;
-	let span1;
-	let a;
-	let t4;
-	let t5;
-	let t6;
 	let ul;
 	let current;
 	let each_value = /*social_links*/ ctx[0];
@@ -4327,15 +4322,10 @@ function create_fragment$5(ctx) {
 			hr = element("hr");
 			t0 = space();
 			div0 = element("div");
-			span0 = element("span");
+			span = element("span");
 			t1 = text("Copyright ");
 			t2 = text(t2_value);
 			t3 = space();
-			span1 = element("span");
-			a = element("a");
-			t4 = text("Primo");
-			t5 = text(" Powered");
-			t6 = space();
 			ul = element("ul");
 
 			for (let i = 0; i < each_blocks.length; i += 1) {
@@ -4355,21 +4345,12 @@ function create_fragment$5(ctx) {
 			t0 = claim_space(div1_nodes);
 			div0 = claim_element(div1_nodes, "DIV", { class: true });
 			var div0_nodes = children(div0);
-			span0 = claim_element(div0_nodes, "SPAN", { class: true });
-			var span0_nodes = children(span0);
-			t1 = claim_text(span0_nodes, "Copyright ");
-			t2 = claim_text(span0_nodes, t2_value);
-			span0_nodes.forEach(detach);
+			span = claim_element(div0_nodes, "SPAN", { class: true });
+			var span_nodes = children(span);
+			t1 = claim_text(span_nodes, "Copyright ");
+			t2 = claim_text(span_nodes, t2_value);
+			span_nodes.forEach(detach);
 			t3 = claim_space(div0_nodes);
-			span1 = claim_element(div0_nodes, "SPAN", { class: true });
-			var span1_nodes = children(span1);
-			a = claim_element(span1_nodes, "A", { href: true, class: true });
-			var a_nodes = children(a);
-			t4 = claim_text(a_nodes, "Primo");
-			a_nodes.forEach(detach);
-			t5 = claim_text(span1_nodes, " Powered");
-			span1_nodes.forEach(detach);
-			t6 = claim_space(div0_nodes);
 			ul = claim_element(div0_nodes, "UL", { class: true });
 			var ul_nodes = children(ul);
 
@@ -4386,10 +4367,7 @@ function create_fragment$5(ctx) {
 		},
 		h() {
 			attr(hr, "class", "svelte-1excgdw");
-			attr(span0, "class", "copyright svelte-1excgdw");
-			attr(a, "href", "https://primo.so");
-			attr(a, "class", "svelte-1excgdw");
-			attr(span1, "class", "primo svelte-1excgdw");
+			attr(span, "class", "copyright svelte-1excgdw");
 			attr(ul, "class", "svelte-1excgdw");
 			attr(div0, "class", "footer svelte-1excgdw");
 			attr(div1, "class", "section-container svelte-1excgdw");
@@ -4403,15 +4381,10 @@ function create_fragment$5(ctx) {
 			append_hydration(div1, hr);
 			append_hydration(div1, t0);
 			append_hydration(div1, div0);
-			append_hydration(div0, span0);
-			append_hydration(span0, t1);
-			append_hydration(span0, t2);
+			append_hydration(div0, span);
+			append_hydration(span, t1);
+			append_hydration(span, t2);
 			append_hydration(div0, t3);
-			append_hydration(div0, span1);
-			append_hydration(span1, a);
-			append_hydration(a, t4);
-			append_hydration(span1, t5);
-			append_hydration(div0, t6);
 			append_hydration(div0, ul);
 
 			for (let i = 0; i < each_blocks.length; i += 1) {
@@ -4610,14 +4583,16 @@ function create_fragment$6(ctx) {
 				},
 				image: {
 					"alt": "",
-					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/scaleddown.png1689355086427"
+					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/16900269334421646222565124.jpeg",
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/16900269334421646222565124.jpeg",
+					"size": 99
 				},
 				title: "Blog",
 				description: "",
 				heading: "I'm Steve.",
 				content: {
 					"html": "<p>I'm a DevOps Engineer. I work at <a href=\"https://www.ttigroup.com/\">Techtronic Industries (TTI)</a>, and we're doing some pretty cool stuff there right now. Take a look around; maybe you'll find something interesting.</p>\n<p>Just kidding… everything here is placeholder content until I actually have time to fill it all in.</p>",
-					"markdown": "I'm a DevOps Engineer. I work at [Techtronic Industries (TTI)](<https://www.ttigroup.com/>), and we're doing some pretty cool stuff there right now. Take a look around; maybe you'll find something interesting.\n\n\n\nJust kidding... everything here is placeholder content until I actually have time to fill it all in.\n\n"
+					"markdown": "I'm a DevOps Engineer. I work at [Techtronic Industries (TTI)](<https://www.ttigroup.com/>), and we're doing some pretty cool stuff there right now. Take a look around; maybe you'll find something interesting.\n\nJust kidding… everything here is placeholder content until I actually have time to fill it all in.\n\n"
 				}
 			}
 		});
@@ -4631,12 +4606,12 @@ function create_fragment$6(ctx) {
 				image: { "alt": "", "url": "" },
 				title: "Blog",
 				description: "",
-				heading: "Articles",
+				heading: "Featured Posts",
 				items: [
 					{
 						"date": "June 3, 2023",
 						"link": {
-							"url": "https://primosites.vercel.app/",
+							"url": "/blog-entry",
 							"label": "Mastering the art of responsive design: a comprehensive guide"
 						},
 						"thumbnail": {
@@ -4653,7 +4628,7 @@ function create_fragment$6(ctx) {
 					{
 						"date": "August 12, 2023",
 						"link": {
-							"url": "https://primosites.vercel.app/",
+							"url": "http://localhost:5173/blog-entry",
 							"label": "10 essential tools every web developer should know"
 						},
 						"thumbnail": {
@@ -4670,7 +4645,7 @@ function create_fragment$6(ctx) {
 					{
 						"date": "September 12, 2023",
 						"link": {
-							"url": "/",
+							"url": "http://localhost:5173/blog-entry",
 							"label": "The future of web design: exploring innovative trends & technologies"
 						},
 						"thumbnail": {
@@ -4685,20 +4660,20 @@ function create_fragment$6(ctx) {
 						}
 					},
 					{
-						"date": "December 12, 2023",
+						"date": "July 22, 2023",
 						"link": {
-							"url": "/",
-							"label": "The Power of Minimalism in UI/UX Design"
+							"url": "/blog/article1",
+							"label": "Where do I begin"
 						},
 						"thumbnail": {
 							"alt": "",
-							"src": "https://images.unsplash.com/photo-1682795176020-1752b4446818?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2313&q=80",
-							"url": "https://images.unsplash.com/photo-1682795176020-1752b4446818?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2313&q=80",
-							"size": null
+							"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1690028953198jj-ying-8bghKxNU1j0-unsplash.jpg",
+							"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1690028953198jj-ying-8bghKxNU1j0-unsplash.jpg",
+							"size": 899
 						},
 						"description": {
-							"html": "<p>Discover the impact of minimalism in UI/UX design, and learn how to create clean, user-friendly interfaces that prioritize functionality and aesthetics.</p>",
-							"markdown": "Discover the impact of minimalism in UI/UX design, and learn how to create clean, user-friendly interfaces that prioritize functionality and aesthetics."
+							"html": "<p>A brief explanation on why we're here.</p>",
+							"markdown": "A brief explanation on why we're here."
 						}
 					}
 				]
