@@ -4389,8 +4389,8 @@ function create_fragment$5(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"size": 1
 				},
 				image: {
@@ -4408,8 +4408,8 @@ function create_fragment$5(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"size": 1
 				},
 				image: {
@@ -4445,8 +4445,8 @@ function create_fragment$5(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"size": 1
 				},
 				image: {
@@ -4485,8 +4485,8 @@ function create_fragment$5(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"size": 1
 				},
 				image: {
@@ -4524,8 +4524,8 @@ function create_fragment$5(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"size": 1
 				},
 				image: {

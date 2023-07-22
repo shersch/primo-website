@@ -4325,8 +4325,8 @@ function create_fragment$6(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"size": 1
 				},
 				image: {
@@ -4344,8 +4344,8 @@ function create_fragment$6(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"size": 1
 				},
 				image: {
@@ -4381,8 +4381,8 @@ function create_fragment$6(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"size": 1
 				},
 				image: {
@@ -4400,8 +4400,8 @@ function create_fragment$6(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"size": 1
 				},
 				image: {
@@ -4413,8 +4413,8 @@ function create_fragment$6(ctx) {
 				title: "Article",
 				description: "This is an article discussing the merits of something or another.",
 				content: {
-					"html": "<p>I started working at TTI at the end of June, so everything is still really new and fresh.  I'm the first devops engineer on the team, and the plan is to move EVERYTHING off of Rackspace and into AWS.  It is an enormous undertaking, but an interesting one.  I've been incredibly verbose on the company Slack workspace in order to be as visible as possible with what I'm doing.  My hope is that it preemptively answers some questions before they're even asked, and that people will call out if they see me doing something that isn't accounting for something I'm not aware of yet.  It's been working well I think.   But aside from trying to blast open some communication channels, writing it all out helps me consider the many caveats the plague every single thing I try to set up.  Kind of like \"rubber duck debugging\", but with less rubber ducks.  Anyway, I realized that I'm writing all of this stuff, and it'll all be forever lost in the eternal archives of Slack channel histories.  So instead, I'm going to start writing it all here.  I think what I'm working on is incredibly interesting and exciting, and I imagine some other people might find it interesting and exciting as well.  So here we go, everyone!</p>",
-					"markdown": "I started working at TTI at the end of June, so everything is still really new and fresh.  I'm the first devops engineer on the team, and the plan is to move EVERYTHING off of Rackspace and into AWS.  It is an enormous undertaking, but an interesting one.  I've been incredibly verbose on the company Slack workspace in order to be as visible as possible with what I'm doing.  My hope is that it preemptively answers some questions before they're even asked, and that people will call out if they see me doing something that isn't accounting for something I'm not aware of yet.  It's been working well I think.   But aside from trying to blast open some communication channels, writing it all out helps me consider the many caveats the plague every single thing I try to set up.  Kind of like \"rubber duck debugging\", but with less rubber ducks.  Anyway, I realized that I'm writing all of this stuff, and it'll all be forever lost in the eternal archives of Slack channel histories.  So instead, I'm going to start writing it all here.  I think what I'm working on is incredibly interesting and exciting, and I imagine some other people might find it interesting and exciting as well.  So here we go, everyone!"
+					"html": "<p>I started working at TTI at the end of June, so everything is still really new and fresh.  I'm the first devops engineer on the team, and the plan is to move everything off of Rackspace and into AWS.  It is an enormous undertaking, but an interesting one.  I've been incredibly verbose in our Slack workspace in order to be as visible as possible with what I'm doing.  My hope is that it preemptively answers some questions before they're even asked, and that people will call out if they see me doing anything that they'd like to have input on.  It's been working well I think.   But aside from trying to open some communication channels, writing it all out helps me consider the many caveats the plague every single thing I try to set up.  Kind of like \"rubber duck debugging\", but with less rubber ducks.  Anyway, I realized that I'm writing all of this stuff, and it'll all be forever lost in the eternal archives of Slack channel histories.  So instead, I'm going to start writing it all here.  I think what I'm working on is incredibly interesting and exciting, and I imagine some other people might find it interesting and exciting as well.  So here we go, everyone!</p>",
+					"markdown": "I started working at TTI at the end of June, so everything is still really new and fresh.  I'm the first devops engineer on the team, and the plan is to move everything off of Rackspace and into AWS.  It is an enormous undertaking, but an interesting one.  I've been incredibly verbose in our Slack workspace in order to be as visible as possible with what I'm doing.  My hope is that it preemptively answers some questions before they're even asked, and that people will call out if they see me doing anything that they'd like to have input on.  It's been working well I think.   But aside from trying to open some communication channels, writing it all out helps me consider the many caveats the plague every single thing I try to set up.  Kind of like \"rubber duck debugging\", but with less rubber ducks.  Anyway, I realized that I'm writing all of this stuff, and it'll all be forever lost in the eternal archives of Slack channel histories.  So instead, I'm going to start writing it all here.  I think what I'm working on is incredibly interesting and exciting, and I imagine some other people might find it interesting and exciting as well.  So here we go, everyone!"
 				}
 			}
 		});
@@ -4423,8 +4423,8 @@ function create_fragment$6(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"size": 1
 				},
 				image: {
@@ -4462,8 +4462,8 @@ function create_fragment$6(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"size": 1
 				},
 				image: {

@@ -4226,8 +4226,8 @@ function create_fragment$5(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"size": 1
 				},
 				image: {
@@ -4245,8 +4245,8 @@ function create_fragment$5(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"size": 1
 				},
 				image: {
@@ -4282,8 +4282,8 @@ function create_fragment$5(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"size": 1
 				},
 				image: {
@@ -4296,8 +4296,8 @@ function create_fragment$5(ctx) {
 				description: "I'm more than just a pretty face",
 				heading: "About me",
 				content: {
-					"html": "<p>I've been in a rush since day one. Born in Pittsburgh, PA, weighing in at over 11 pounds, I started kindergarten when I was 4 and college when I was 16. I completed my coursework in graduate school when I was 22. Needless to say, I was on a mission. Out of school, I got my start in tech working at a casino as a surveillance technician. From there, I worked as a systems engineer for Synectic Systems, the developer of an enterprise video management system. That job landed me in server rooms and data closets all over North America. All the while, I was spending my time playing with this neat tool called Docker. My journey with my home lab began to scale up quickly, and you'll be able to find articles about some of it at this site. The cool part was realizing that all this stuff I was doing with Docker and other automation tools was actually called DevOps, and it was a career path. So now I get paid to have fun.</p>",
-					"markdown": "I've been in a rush since day one. Born in Pittsburgh, PA, weighing in at over 11 pounds, I started kindergarten when I was 4 and college when I was 16. I completed my coursework in graduate school when I was 22. Needless to say, I was on a mission. Out of school, I got my start in tech working at a casino as a surveillance technician. From there, I worked as a systems engineer for Synectic Systems, the developer of an enterprise video management system. That job landed me in server rooms and data closets all over North America. All the while, I was spending my time playing with this neat tool called Docker. My journey with my home lab began to scale up quickly, and you'll be able to find articles about some of it at this site. The cool part was realizing that all this stuff I was doing with Docker and other automation tools was actually called DevOps, and it was a career path. So now I get paid to have fun.\n\n"
+					"html": "<p>I've been in a rush since day one. Born in Pittsburgh, PA, weighing in at over 11 pounds, I started kindergarten when I was 4 and college when I was 16. I completed my coursework in graduate school when I was 22. Needless to say, I was on a mission. Out of school, I got my start in tech working at a casino as a surveillance technician. From there, I worked as a systems engineer for Synectic Systems, the developer of an enterprise video management system. That job landed me in server rooms and data closets all over North America. All the while, I was spending my time playing with this neat tool called Docker. My journey with my home lab began to scale up quickly, and you'll be able to find articles about some of it at this site. The cool part was realizing that all this stuff I was doing with Docker and other automation tools was actually called DevOps, and it was a career path. So now I get paid to have fun.  </p>\n<p>Aside from my passion for all things DevOps, I earned my bachelor's degree in music technology from Duquesne University.  I earned my master's in guitar performance there as well.  While I no longer gig or teach music, guitar remains incredibly important in my life, as does music and audio in general.  I am very particular about my headphones and speakers, and how they're EQ'd.  It is a frustrating hobby.  </p>\n<p>Undoubtedly the most important part of my life is my family.  My wife, Dr. Xinlei Chu, and I met in graduate school, and have been married for almost 10 years at this point.  We have a human baby together, and he's two.  I frequently have dreams where I help him troubleshoot his Flask API's and CI/CD pipelines.  He is much less interested in those things in real life though.</p>",
+					"markdown": "I've been in a rush since day one. Born in Pittsburgh, PA, weighing in at over 11 pounds, I started kindergarten when I was 4 and college when I was 16. I completed my coursework in graduate school when I was 22. Needless to say, I was on a mission. Out of school, I got my start in tech working at a casino as a surveillance technician. From there, I worked as a systems engineer for Synectic Systems, the developer of an enterprise video management system. That job landed me in server rooms and data closets all over North America. All the while, I was spending my time playing with this neat tool called Docker. My journey with my home lab began to scale up quickly, and you'll be able to find articles about some of it at this site. The cool part was realizing that all this stuff I was doing with Docker and other automation tools was actually called DevOps, and it was a career path. So now I get paid to have fun.  \n  \nAside from my passion for all things DevOps, I earned my bachelor's degree in music technology from Duquesne University.  I earned my master's in guitar performance there as well.  While I no longer gig or teach music, guitar remains incredibly important in my life, as does music and audio in general.  I am very particular about my headphones and speakers, and how they're EQ'd.  It is a frustrating hobby.  \n  \nUndoubtedly the most important part of my life is my family.  My wife, Dr. Xinlei Chu, and I met in graduate school, and have been married for almost 10 years at this point.  We have a human baby together, and he's two.  I frequently have dreams where I help him troubleshoot his Flask API's and CI/CD pipelines.  He is much less interested in those things in real life though."
 				}
 			}
 		});
@@ -4306,8 +4306,8 @@ function create_fragment$5(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"size": 1
 				},
 				image: {
@@ -4345,8 +4345,8 @@ function create_fragment$5(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"size": 1
 				},
 				image: {

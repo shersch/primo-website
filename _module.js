@@ -4537,8 +4537,8 @@ function create_fragment$6(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"size": 1
 				},
 				image: { "alt": "", "url": "" },
@@ -4551,8 +4551,8 @@ function create_fragment$6(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"size": 1
 				},
 				image: { "alt": "", "url": "" },
@@ -4583,8 +4583,8 @@ function create_fragment$6(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"size": 1
 				},
 				image: {
@@ -4597,8 +4597,8 @@ function create_fragment$6(ctx) {
 				description: "",
 				heading: "I'm Steve.",
 				content: {
-					"html": "<p>I'm a DevOps Engineer. I work at <a href=\"https://www.ttigroup.com/\">Techtronic Industries (TTI)</a>, and we're doing some pretty cool stuff there right now. Take a look around; maybe you'll find something interesting.</p>\n<p>Just kidding… everything here is placeholder content until I actually have time to fill it all in.</p>",
-					"markdown": "I'm a DevOps Engineer. I work at [Techtronic Industries (TTI)](<https://www.ttigroup.com/>), and we're doing some pretty cool stuff there right now. Take a look around; maybe you'll find something interesting.\n\nJust kidding… everything here is placeholder content until I actually have time to fill it all in.\n\n"
+					"html": "<p>I'm a DevOps Engineer. I work at <a href=\"https://www.ttigroup.com/\">Techtronic Industries (TTI)</a>, and we're doing some pretty cool stuff there right now. Aside from that, I have about 40 containers running on my Synology, so I'm sure I'll be sharing some configuration stuff  there as well. \n Take a look around; maybe you'll find something interesting.</p>",
+					"markdown": "I'm a DevOps Engineer. I work at [Techtronic Industries (TTI)](<https://www.ttigroup.com/>), and we're doing some pretty cool stuff there right now. Aside from that, I have about 40 containers running on my Synology, so I'm sure I'll be sharing some configuration stuff  there as well. \n Take a look around; maybe you'll find something interesting.\n"
 				}
 			}
 		});
@@ -4607,8 +4607,8 @@ function create_fragment$6(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"size": 1
 				},
 				image: { "alt": "", "url": "" },
@@ -4641,8 +4641,8 @@ function create_fragment$6(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"size": 1
 				},
 				image: { "alt": "", "url": "" },
@@ -4675,8 +4675,8 @@ function create_fragment$6(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 					"size": 1
 				},
 				image: { "alt": "", "url": "" },
