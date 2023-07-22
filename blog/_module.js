@@ -4468,6 +4468,23 @@ function create_fragment$5(ctx) {
 				heading: "All Articles",
 				items: [
 					{
+						"date": "July 23, 2023",
+						"link": {
+							"url": "/blog/the-state-of-synology",
+							"label": "The Stat of Synology"
+						},
+						"thumbnail": {
+							"alt": "",
+							"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1690040661822synology.png",
+							"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1690040661822synology.png",
+							"size": 1090
+						},
+						"description": {
+							"html": "<p>A rant.</p>",
+							"markdown": "A rant."
+						}
+					},
+					{
 						"date": "July 22, 2023",
 						"link": {
 							"url": "/blog/pulumi-over-terraform",

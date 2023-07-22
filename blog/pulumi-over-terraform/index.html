@@ -193,19 +193,19 @@
             }
         }
 
-        .section-container.svelte-1lugy4n {
+        .section-container.svelte-1qsoljh {
             max-width: var(--inner-max-width, 800px);
             padding: 2rem
         }
 
-        .content.svelte-1lugy4n img {
+        .content.svelte-1qsoljh img {
             width: 100%;
             margin: 2rem 0;
             box-shadow: var(--box-shadow);
             border-radius: var(--border-radius)
         }
 
-        .content.svelte-1lugy4n p {
+        .content.svelte-1qsoljh p {
             padding: 0.25rem 0;
             line-height: 1.5;
             font-family: var(--body-font);
@@ -214,11 +214,11 @@
             color: #2d3339
         }
 
-        .content.svelte-1lugy4n a {
+        .content.svelte-1qsoljh a {
             text-decoration: underline
         }
 
-        .content.svelte-1lugy4n h1 {
+        .content.svelte-1qsoljh h1 {
             font-size: clamp(1.75rem, 10vw, 2.25rem);
             font-weight: 600;
             letter-spacing: -0.08rem;
@@ -226,7 +226,7 @@
             line-height: 1.1
         }
 
-        .content.svelte-1lugy4n h2 {
+        .content.svelte-1qsoljh h2 {
             font-size: clamp(1.5rem, 10vw, 2.125rem);
             font-weight: 600;
             margin-bottom: 1rem;
@@ -234,7 +234,7 @@
             line-height: 1.1
         }
 
-        .content.svelte-1lugy4n h3 {
+        .content.svelte-1qsoljh h3 {
             font-size: clamp(1.25rem, 10vw, 1.75rem);
             font-weight: 600;
             margin-bottom: 0.5rem;
@@ -242,22 +242,31 @@
             line-height: 1.1
         }
 
-        .content.svelte-1lugy4n ul {
+        .content.svelte-1qsoljh ul {
             list-style: disc;
             padding: 0.25rem 0;
             padding-left: 1.25rem
         }
 
-        .content.svelte-1lugy4n ol {
+        .content.svelte-1qsoljh ol {
             list-style: decimal;
             padding-left: 1.25rem;
             margin-bottom: 2rem
         }
 
-        .content.svelte-1lugy4n blockquote {
+        .content.svelte-1qsoljh blockquote {
             padding: 2rem;
             box-shadow: var(--box-shadow);
             border-radius: var(--border-radius)
+        }
+
+        .content.svelte-1qsoljh code {
+            display: block;
+            background-color: #f8f8f8;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: 'Courier New', Courier, monospace;
+            white-space: pre
         }
 
         .section-container.svelte-1excgdw.svelte-1excgdw {
@@ -335,7 +344,7 @@
     </div>
     <div class="section" id="section-c626c2a4">
         <div class="section">
-            <div class="section-container content svelte-1lugy4n"><!-- HTML_TAG_START -->
+            <div class="section-container content svelte-1qsoljh"><!-- HTML_TAG_START -->
                 <p>Before I worked at TTI, I had a little bit of experience with Terraform, and a lot with Ansible. My initial goal, since we were moving to containers and not VMs, was to eliminate any need for Ansible. Easy enough… kind of. However, I anticipated that I would begin developing complex Terraform configurations. Despite my friend and colleague suggesting I look at Pulumi, I was dead set on Terraform. I was trying to plan for the future. One day, I'll probably get to have another devops engineer join the team, and they will most likely know Terraform. HOWEVER… HCL syntax is really easy to forget, whereas I'm relatively comfortable with basic javascript. So I humored my friend, and I spun up GitLab in EC2 using Pulumi. Bye bye Terraform. It was too easy. And all the developers know JavaScript, so if something needs to happen and I'm not at my keyboard, at least they'll be able to read through it and see what's happening enough that I can explain it over the phone. Here, let's take a look. This is what it looks like to create a new CNAME record in Cloudflare using javascript with Pulumi:</p>
                 <pre><code class="hljs"><span class="hljs-keyword">if</span> (stack.startsWith(<span class="hljs-string">&#x27;qa-&#x27;</span>)) {
     const record = <span class="hljs-keyword">new</span> cloudflare.Record(<span class="hljs-string">`<span class="hljs-subst">${commitHash}</span>-record`</span>, {
@@ -360,7 +369,7 @@
 }
 </code></pre>
                 <p><br />
-                    Look at that conditional in HCL. We have to consolidate it into one mile-long ternary operator, and we have to use a substring function and explicitly state the index range. While there is obviously a time and place for a ternary operator, this isn't it, and HCL doesn't support if-else statements, so this is pretty much as good as it gets. This is really just the tip of the iceberg though. I'm working on some pretty magnificent automation right now that I'll be sure to write about once it's done, but it involves dynamically creating entire production-like environments for QA. I'll do what I can to generate it in HCL for comparison, but I genuinely can't imagine trying to use HCL as a fully-featured programming language.</p><!-- HTML_TAG_END -->
+                    We are forced to use a mile-long ternary operator that extends way off the page, and we have to use a substring function and explicitly state the index range. While there is obviously a time and place for a ternary operator, this isn't it, and HCL doesn't support if-else statements, so this is pretty much as good as it gets. This is really just the tip of the iceberg though. I'm working on some pretty magnificent automation right now that I'll be sure to write about once it's done, but it involves dynamically creating entire production-like environments for QA. I'll do what I can to generate it in HCL for comparison, but I genuinely can't imagine trying to use HCL as a fully-featured programming language.</p><!-- HTML_TAG_END -->
             </div>
         </div>
     </div>
