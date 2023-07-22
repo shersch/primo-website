@@ -3812,16 +3812,16 @@ function create_fragment$3(ctx) {
 			this.h();
 		},
 		h() {
-			attr(h1, "class", "heading svelte-1xc63r4");
+			attr(h1, "class", "heading svelte-1jl9a7i");
 			if (!src_url_equal(img.src, img_src_value = /*image*/ ctx[0].url)) attr(img, "src", img_src_value);
 			attr(img, "alt", img_alt_value = /*image*/ ctx[0].alt);
-			attr(img, "class", "svelte-1xc63r4");
-			attr(figcaption, "class", "svelte-1xc63r4");
-			attr(figure, "class", "svelte-1xc63r4");
-			attr(div0, "class", "content svelte-1xc63r4");
-			attr(section, "class", "section-container svelte-1xc63r4");
+			attr(img, "class", "svelte-1jl9a7i");
+			attr(figcaption, "class", "svelte-1jl9a7i");
+			attr(figure, "class", "svelte-1jl9a7i");
+			attr(div0, "class", "content svelte-1jl9a7i");
+			attr(section, "class", "section-container svelte-1jl9a7i");
 			attr(div1, "class", "section");
-			attr(div1, "id", "section-3d211df7");
+			attr(div1, "id", "section-e82ef021");
 		},
 		m(target, anchor) {
 			insert_hydration(target, div1, anchor);
@@ -4609,15 +4609,15 @@ function create_fragment$6(ctx) {
 					"url": "https://github.com/primocms/primo/blob/master/static/primologo.png?raw=true"
 				},
 				image: {
-					"alt": "That's me.  Well... the guy on the bottom.  The little guy is my intern.",
+					"alt": "",
 					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/scaleddown.png1689355086427"
 				},
 				title: "Blog",
 				description: "",
 				heading: "I'm Steve.",
 				content: {
-					"html": "<p>I like to write about to the that true, claim cognitive think he always design with shall subjective to decided could the that on her expected boa the to spree. State with has in state client but went here, quickly on gone he commitment concept and set value to were harmonics.</p>",
-					"markdown": "I like to write about to the that true, claim cognitive think he always design with shall subjective to decided could the that on her expected boa the to spree. State with has in state client but went here, quickly on gone he commitment concept and set value to were harmonics.\n\n"
+					"html": "<p>I'm a DevOps Engineer. I work at <a href=\"https://www.ttigroup.com/\">Techtronic Industries (TTI)</a>, and we're doing some pretty cool stuff there right now. Take a look around; maybe you'll find something interesting.</p>\n<p>Just kidding… everything here is placeholder content until I actually have time to fill it all in.</p>",
+					"markdown": "I'm a DevOps Engineer. I work at [Techtronic Industries (TTI)](<https://www.ttigroup.com/>), and we're doing some pretty cool stuff there right now. Take a look around; maybe you'll find something interesting.\n\n\n\nJust kidding... everything here is placeholder content until I actually have time to fill it all in.\n\n"
 				}
 			}
 		});
