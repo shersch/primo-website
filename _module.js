@@ -4597,8 +4597,8 @@ function create_fragment$6(ctx) {
 				description: "",
 				heading: "I'm Steve.",
 				content: {
-					"html": "<p>I'm a DevOps Engineer. I work at <a href=\"https://www.ttigroup.com/\">Techtronic Industries (TTI)</a>, and we're doing some pretty cool stuff there right now. Aside from that, I have about 40 containers running on my Synology, so I'm sure I'll be sharing some configuration stuff  there as well. \n Take a look around; maybe you'll find something interesting.</p>",
-					"markdown": "I'm a DevOps Engineer. I work at [Techtronic Industries (TTI)](<https://www.ttigroup.com/>), and we're doing some pretty cool stuff there right now. Aside from that, I have about 40 containers running on my Synology, so I'm sure I'll be sharing some configuration stuff  there as well. \n Take a look around; maybe you'll find something interesting.\n"
+					"html": "<p>I'm a DevOps Engineer. I work at <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"link link\" href=\"https://www.ttigroup.com/\">Techtronic Industries (TTI)</a>, and we're doing some pretty cool stuff there right now. Aside from that, I have about 40 containers running on my Synology, so I'm sure I'll be sharing some configuration stuff there as well. Take a look around; maybe you'll find something interesting.</p>",
+					"markdown": "I'm a DevOps Engineer. I work at [Techtronic Industries (TTI)](<https://www.ttigroup.com/>), and we're doing some pretty cool stuff there right now. Aside from that, I have about 40 containers running on my Synology, so I'm sure I'll be sharing some configuration stuff there as well. Take a look around; maybe you'll find something interesting.\n\n"
 				}
 			}
 		});
