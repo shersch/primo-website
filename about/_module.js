@@ -4226,16 +4226,18 @@ function create_fragment$5(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://github.com/primocms/primo/blob/master/static/primologo.png?raw=true"
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"size": 1
 				},
 				image: {
 					"alt": "",
-					"src": "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
-					"url": "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
-					"size": null
+					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/16900269334421646222565124.jpeg",
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/16900269334421646222565124.jpeg",
+					"size": 99
 				},
-				title: "About my Blog",
-				description: "I'm a developer, designer, founder and everything in-between."
+				title: "About me",
+				description: "I'm more than just a pretty face"
 			}
 		});
 
@@ -4243,16 +4245,18 @@ function create_fragment$5(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://github.com/primocms/primo/blob/master/static/primologo.png?raw=true"
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"size": 1
 				},
 				image: {
 					"alt": "",
-					"src": "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
-					"url": "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
-					"size": null
+					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/16900269334421646222565124.jpeg",
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/16900269334421646222565124.jpeg",
+					"size": 99
 				},
-				title: "About my Blog",
-				description: "I'm a developer, designer, founder and everything in-between.",
+				title: "About me",
+				description: "I'm more than just a pretty face",
 				logo: {
 					"image": {
 						"alt": "",
@@ -4278,7 +4282,9 @@ function create_fragment$5(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://github.com/primocms/primo/blob/master/static/primologo.png?raw=true"
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"size": 1
 				},
 				image: {
 					"alt": "",
@@ -4286,8 +4292,8 @@ function create_fragment$5(ctx) {
 					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/16900269334421646222565124.jpeg",
 					"size": 99
 				},
-				title: "About my Blog",
-				description: "I'm a developer, designer, founder and everything in-between.",
+				title: "About me",
+				description: "I'm more than just a pretty face",
 				heading: "About me",
 				content: {
 					"html": "<p>I've been in a rush since day one. Born in Pittsburgh, PA, weighing in at over 11 pounds, I started kindergarten when I was 4 and college when I was 16. I completed my coursework in graduate school when I was 22. Needless to say, I was on a mission. Out of school, I got my start in tech working at a casino as a surveillance technician. From there, I worked as a systems engineer for Synectic Systems, the developer of an enterprise video management system. That job landed me in server rooms and data closets all over North America. All the while, I was spending my time playing with this neat tool called Docker. My journey with my home lab began to scale up quickly, and you'll be able to find articles about some of it at this site. The cool part was realizing that all this stuff I was doing with Docker and other automation tools was actually called DevOps, and it was a career path. So now I get paid to have fun.</p>",
@@ -4300,16 +4306,18 @@ function create_fragment$5(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://github.com/primocms/primo/blob/master/static/primologo.png?raw=true"
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"size": 1
 				},
 				image: {
 					"alt": "",
-					"src": "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
-					"url": "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
-					"size": null
+					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/16900269334421646222565124.jpeg",
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/16900269334421646222565124.jpeg",
+					"size": 99
 				},
-				title: "About my Blog",
-				description: "I'm a developer, designer, founder and everything in-between.",
+				title: "About me",
+				description: "I'm more than just a pretty face",
 				heading: "",
 				email: "",
 				social_links: [
@@ -4337,16 +4345,18 @@ function create_fragment$5(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://github.com/primocms/primo/blob/master/static/primologo.png?raw=true"
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"size": 1
 				},
 				image: {
 					"alt": "",
-					"src": "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
-					"url": "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
-					"size": null
+					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/16900269334421646222565124.jpeg",
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/16900269334421646222565124.jpeg",
+					"size": 99
 				},
-				title: "About my Blog",
-				description: "I'm a developer, designer, founder and everything in-between."
+				title: "About me",
+				description: "I'm more than just a pretty face"
 			}
 		});
 

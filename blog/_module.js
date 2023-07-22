@@ -4389,7 +4389,9 @@ function create_fragment$5(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://github.com/primocms/primo/blob/master/static/primologo.png?raw=true"
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"size": 1
 				},
 				image: {
 					"alt": "",
@@ -4406,7 +4408,9 @@ function create_fragment$5(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://github.com/primocms/primo/blob/master/static/primologo.png?raw=true"
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"size": 1
 				},
 				image: {
 					"alt": "",
@@ -4441,7 +4445,9 @@ function create_fragment$5(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://github.com/primocms/primo/blob/master/static/primologo.png?raw=true"
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"size": 1
 				},
 				image: {
 					"alt": "",
@@ -4454,72 +4460,21 @@ function create_fragment$5(ctx) {
 				heading: "All Articles",
 				items: [
 					{
-						"date": "June 3, 2023",
+						"date": "July 22, 2023",
 						"link": {
-							"url": "https://primosites.vercel.app/blog-entry",
-							"label": "Mastering the art of responsive design: a comprehensive guide"
-						},
-						"thumbnail": {
-							"alt": "",
-							"src": "https://images.unsplash.com/photo-1682674396903-9d601f2bfe43?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
-							"url": "https://images.unsplash.com/photo-1682674396903-9d601f2bfe43?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
-							"size": null
-						},
-						"description": {
-							"html": "<p>This article dives into the nuts and bolts of coding web projects for clients. By the end of this article, you'll be ready to take on lots of projects.</p>",
-							"markdown": "This article dives into the nuts and bolts of coding web projects for clients. By the end of this article, you'll be ready to take on lots of projects.\n\n"
-						}
-					},
-					{
-						"date": "August 12, 2023",
-						"link": {
-							"url": "/blog-entry",
-							"label": "10 essential tools every web developer should know"
-						},
-						"thumbnail": {
-							"alt": "",
-							"src": "https://images.unsplash.com/photo-1683002506825-2205b4fe4f53?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80",
-							"url": "https://images.unsplash.com/photo-1683002506825-2205b4fe4f53?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80",
-							"size": null
-						},
-						"description": {
-							"html": "<p>Stay ahead of the game with our roundup of the top 10 tools every web developer should have in their toolkit, from version control systems to browser extensions that boost productivity.</p>",
-							"markdown": "Stay ahead of the game with our roundup of the top 10 tools every web developer should have in their toolkit, from version control systems to browser extensions that boost productivity.\n\n"
-						}
-					},
-					{
-						"date": "September 12, 2023",
-						"link": {
-							"url": "/blog-entry",
-							"label": "The future of web design: exploring innovative trends & technologies"
-						},
-						"thumbnail": {
-							"alt": "",
-							"src": "https://images.unsplash.com/photo-1682968356839-e72de61bd076?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
-							"url": "https://images.unsplash.com/photo-1682968356839-e72de61bd076?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
-							"size": null
-						},
-						"description": {
-							"html": "<p>Get a glimpse of the future of web design as we discuss the latest trends, cutting-edge technologies, and groundbreaking ideas that are shaping the industry.</p>",
-							"markdown": "Get a glimpse of the future of web design as we discuss the latest trends, cutting-edge technologies, and groundbreaking ideas that are shaping the industry."
-						}
-					},
-					{
-						"date": "December 12, 2023",
-						"link": {
-							"url": "/blog-entry",
-							"label": "The Power of Minimalism in UI/UX Design",
+							"url": "/blog/article1",
+							"label": "Where do I begin?",
 							"active": false
 						},
 						"thumbnail": {
 							"alt": "",
-							"src": "https://images.unsplash.com/photo-1682795176020-1752b4446818?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2313&q=80",
-							"url": "https://images.unsplash.com/photo-1682795176020-1752b4446818?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2313&q=80",
-							"size": null
+							"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1690028953198jj-ying-8bghKxNU1j0-unsplash.jpg",
+							"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1690028953198jj-ying-8bghKxNU1j0-unsplash.jpg",
+							"size": 899
 						},
 						"description": {
-							"html": "<p>Discover the impact of minimalism in UI/UX design, and learn how to create clean, user-friendly interfaces that prioritize functionality and aesthetics.</p>",
-							"markdown": "Discover the impact of minimalism in UI/UX design, and learn how to create clean, user-friendly interfaces that prioritize functionality and aesthetics."
+							"html": "<p>A brief explanation on why we're here.</p>",
+							"markdown": "A brief explanation on why we're here."
 						}
 					}
 				]
@@ -4530,7 +4485,9 @@ function create_fragment$5(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://github.com/primocms/primo/blob/master/static/primologo.png?raw=true"
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"size": 1
 				},
 				image: {
 					"alt": "",
@@ -4567,7 +4524,9 @@ function create_fragment$5(ctx) {
 			props: {
 				favicon: {
 					"alt": "",
-					"url": "https://github.com/primocms/primo/blob/master/static/primologo.png?raw=true"
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+					"size": 1
 				},
 				image: {
 					"alt": "",
