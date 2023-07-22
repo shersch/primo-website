@@ -8374,12 +8374,20 @@ function create_fragment$7(ctx) {
 					"title": ""
 				},
 				site_nav: [
-					{ "link": { "url": "/", "label": "Home" } },
 					{
-						"link": { "url": "/blog", "label": "Blog" }
+						"link": {
+							"url": "http://localhost:5173/theme-blog",
+							"label": "Home"
+						}
 					},
 					{
-						"link": { "url": "/about", "label": "About" }
+						"link": {
+							"url": "http://localhost:5173/about",
+							"label": "About"
+						}
+					},
+					{
+						"link": { "url": "/blog", "label": "Blog" }
 					}
 				]
 			}

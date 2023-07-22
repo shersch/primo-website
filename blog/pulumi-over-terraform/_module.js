@@ -3563,7 +3563,7 @@ function create_fragment$2(ctx) {
 			attr(div1, "class", "mobile-nav svelte-ngjace");
 			attr(header, "class", "section-container svelte-ngjace");
 			attr(div2, "class", "section");
-			attr(div2, "id", "section-0da74675");
+			attr(div2, "id", "section-98a14a01");
 		},
 		m(target, anchor) {
 			insert_hydration(target, div2, anchor);
@@ -3836,7 +3836,7 @@ function create_fragment$3(ctx) {
 			attr(h1, "class", "heading svelte-1b2zbzi");
 			attr(header, "class", "section-container svelte-1b2zbzi");
 			attr(div, "class", "section");
-			attr(div, "id", "section-eb6dbe28");
+			attr(div, "id", "section-36c9237e");
 		},
 		m(target, anchor) {
 			insert_hydration(target, div, anchor);
@@ -3941,7 +3941,7 @@ function create_fragment$4(ctx) {
 			attr(div0, "class", "section-container content svelte-1lugy4n");
 			attr(div1, "class", "section");
 			attr(div2, "class", "section");
-			attr(div2, "id", "section-d19b1912");
+			attr(div2, "id", "section-c626c2a4");
 		},
 		m(target, anchor) {
 			insert_hydration(target, div2, anchor);
@@ -4160,7 +4160,7 @@ function create_fragment$5(ctx) {
 			attr(div0, "class", "footer svelte-1excgdw");
 			attr(div1, "class", "section-container svelte-1excgdw");
 			attr(div2, "class", "section");
-			attr(div2, "id", "section-24e57a87");
+			attr(div2, "id", "section-f42f128e");
 		},
 		m(target, anchor) {
 			insert_hydration(target, div2, anchor);
@@ -4335,8 +4335,8 @@ function create_fragment$6(ctx) {
 					"url": "https://images.unsplash.com/photo-1577717707588-58e49821e851?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
 					"size": null
 				},
-				title: "Article",
-				description: "This is an article discussing the merits of something or another."
+				title: "Pulumi > Terraform",
+				description: "There can only be one IaC... not really, but really."
 			}
 		});
 
@@ -4354,8 +4354,8 @@ function create_fragment$6(ctx) {
 					"url": "https://images.unsplash.com/photo-1577717707588-58e49821e851?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
 					"size": null
 				},
-				title: "Article",
-				description: "This is an article discussing the merits of something or another.",
+				title: "Pulumi > Terraform",
+				description: "There can only be one IaC... not really, but really.",
 				logo: {
 					"image": {
 						"alt": "",
@@ -4366,12 +4366,20 @@ function create_fragment$6(ctx) {
 					"title": ""
 				},
 				site_nav: [
-					{ "link": { "url": "/", "label": "Home" } },
 					{
-						"link": { "url": "/blog", "label": "Blog" }
+						"link": {
+							"url": "http://localhost:5173/theme-blog",
+							"label": "Home"
+						}
 					},
 					{
-						"link": { "url": "/about", "label": "About" }
+						"link": {
+							"url": "http://localhost:5173/about",
+							"label": "About"
+						}
+					},
+					{
+						"link": { "url": "/blog", "label": "Blog" }
 					}
 				]
 			}
@@ -4387,12 +4395,12 @@ function create_fragment$6(ctx) {
 				},
 				image: {
 					"alt": "",
-					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/jj-ying-8bghKxNU1j0-unsplash.jpg1690028953198"
+					"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/ivan-bandura-Wv2U24G2F78-unsplash.jpg1690034731474"
 				},
-				title: "Article",
-				description: "This is an article discussing the merits of something or another.",
-				superhead: "JULY 22, 2023",
-				heading: "Where do I begin?"
+				title: "Pulumi > Terraform",
+				description: "There can only be one IaC... not really, but really.",
+				superhead: "JULY 22, 2023 ",
+				heading: "Pulumi > Terraform"
 			}
 		});
 
@@ -4410,11 +4418,11 @@ function create_fragment$6(ctx) {
 					"url": "https://images.unsplash.com/photo-1577717707588-58e49821e851?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
 					"size": null
 				},
-				title: "Article",
-				description: "This is an article discussing the merits of something or another.",
+				title: "Pulumi > Terraform",
+				description: "There can only be one IaC... not really, but really.",
 				content: {
-					"html": "<p>I started working at TTI at the end of June, so everything is still really new and fresh.  I'm the first devops engineer on the team, and the plan is to move everything off of Rackspace and into AWS.  It is an enormous undertaking, but an interesting one.  I've been incredibly verbose in our Slack workspace in order to be as visible as possible with what I'm doing.  My hope is that it preemptively answers some questions before they're even asked, and that people will call out if they see me doing anything that they'd like to have input on.  It's been working well I think.   But aside from trying to open some communication channels, writing it all out helps me consider the many caveats the plague every single thing I try to set up.  Kind of like \"rubber duck debugging\", but with less rubber ducks.  Anyway, I realized that I'm writing all of this stuff, and it'll all be forever lost in the eternal archives of Slack channel histories.  So instead, I'm going to start writing it all here.  I think what I'm working on is incredibly interesting and exciting, and I imagine some other people might find it interesting and exciting as well.  So here we go, everyone!</p>",
-					"markdown": "I started working at TTI at the end of June, so everything is still really new and fresh.  I'm the first devops engineer on the team, and the plan is to move everything off of Rackspace and into AWS.  It is an enormous undertaking, but an interesting one.  I've been incredibly verbose in our Slack workspace in order to be as visible as possible with what I'm doing.  My hope is that it preemptively answers some questions before they're even asked, and that people will call out if they see me doing anything that they'd like to have input on.  It's been working well I think.   But aside from trying to open some communication channels, writing it all out helps me consider the many caveats the plague every single thing I try to set up.  Kind of like \"rubber duck debugging\", but with less rubber ducks.  Anyway, I realized that I'm writing all of this stuff, and it'll all be forever lost in the eternal archives of Slack channel histories.  So instead, I'm going to start writing it all here.  I think what I'm working on is incredibly interesting and exciting, and I imagine some other people might find it interesting and exciting as well.  So here we go, everyone!"
+					"html": "<p>Before I worked at TTI, I had a little bit of experience with Terraform, and a lot with Ansible.  My initial goal, since we were moving to containers and not VMs, was to eliminate any need for Ansible. Easy enough… kind of.  However, I anticipated that I would begin developing complex Terraform configurations. Despite my friend and colleague suggesting I look at Pulumi, I was dead set on Terraform. I was trying to plan for the future. One day, I'll probably get to have another devops engineer join the team, and they will most likely know Terraform. HOWEVER… HCL syntax is really easy to forget, whereas I'm relatively comfortable with basic javascript. So I humored my friend, and I spun up GitLab in EC2 using Pulumi. Bye bye Terraform. It was too easy. And all the developers know JavaScript, so if something needs to happen and I'm not at my keyboard, at least they'll be able to read through it and see what's happening enough that I can explain it over the phone. Here, let's take a look. This is what it looks like to create a new CNAME record in Cloudflare using javascript with Pulumi:</p>\n<pre><code class=\"hljs\"><span class=\"hljs-keyword\">if</span> (stack.startsWith(<span class=\"hljs-string\">&#x27;qa-&#x27;</span>)) {\n    const record = <span class=\"hljs-keyword\">new</span> cloudflare.Record(<span class=\"hljs-string\">`<span class=\"hljs-subst\">${commitHash}</span>-record`</span>, {\n        <span class=\"hljs-attr\">zoneId</span>: <span class=\"hljs-string\">&quot;&quot;</span>,\n        <span class=\"hljs-attr\">name</span>: <span class=\"hljs-string\">`<span class=\"hljs-subst\">${commitHash}</span>.qa.<span class=\"hljs-subst\">${<span class=\"hljs-built_in\">domain</span>}</span>`</span>,\n        <span class=\"hljs-attr\">value</span>: pagesProject.url,\n        <span class=\"hljs-attr\">type</span>: <span class=\"hljs-string\">&quot;CNAME&quot;</span>,\n        <span class=\"hljs-attr\">ttl</span>: <span class=\"hljs-number\">1</span>,\n    });\n}\n</code></pre>\n<p><br />\nAnd now here's the same thing in HCL with Terraform:</p>\n<pre><code class=\"hljs\">resource <span class=\"hljs-string\">&quot;cloudflare_record&quot;</span> <span class=\"hljs-string\">&quot;record&quot;</span> {\n  count        = <span class=\"hljs-keyword\">var</span>.stack_name != <span class=\"hljs-keyword\">null</span> &amp;&amp; <span class=\"hljs-keyword\">var</span>.stack_name != <span class=\"hljs-string\">&quot;&quot;</span> &amp;&amp; substr(<span class=\"hljs-keyword\">var</span>.stack_name, <span class=\"hljs-number\">0</span>, <span class=\"hljs-number\">3</span>) == <span class=\"hljs-string\">&quot;qa-&quot;</span> ? <span class=\"hljs-number\">1</span> : <span class=\"hljs-number\">0</span>\n  zone_id      = <span class=\"hljs-keyword\">var</span>.zone_id\n  name         = <span class=\"hljs-string\">&quot;<span class=\"hljs-subst\">${var.commit_hash}</span>.qa.<span class=\"hljs-subst\">${var.domain}</span>&quot;</span>\n  value        = <span class=\"hljs-keyword\">var</span>.pages_project_url\n  type         = <span class=\"hljs-string\">&quot;CNAME&quot;</span>\n  ttl          = <span class=\"hljs-number\">1</span>\n  proxied      = <span class=\"hljs-keyword\">false</span>\n}\n</code></pre>\n<p><br />\nLook at that conditional in HCL. We have to consolidate it into one mile-long ternary operator, and we have to use a substring function and explicitly state the index range. While there is obviously a time and place for a ternary operator, this isn't it, and HCL doesn't support if-else statements, so this is pretty much as good as it gets.  This is really just the tip of the iceberg though.  I'm working on some pretty magnificent automation right now that I'll be sure to write about once it's done, but it involves dynamically creating entire production-like environments for QA.  I'll do what I can to generate it in HCL for comparison, but I genuinely can't imagine trying to use HCL as a fully-featured programming language.</p>",
+					"markdown": "Before I worked at TTI, I had a little bit of experience with Terraform, and a lot with Ansible.  My initial goal, since we were moving to containers and not VMs, was to eliminate any need for Ansible. Easy enough... kind of.  However, I anticipated that I would begin developing complex Terraform configurations. Despite my friend and colleague suggesting I look at Pulumi, I was dead set on Terraform. I was trying to plan for the future. One day, I'll probably get to have another devops engineer join the team, and they will most likely know Terraform. HOWEVER... HCL syntax is really easy to forget, whereas I'm relatively comfortable with basic javascript. So I humored my friend, and I spun up GitLab in EC2 using Pulumi. Bye bye Terraform. It was too easy. And all the developers know JavaScript, so if something needs to happen and I'm not at my keyboard, at least they'll be able to read through it and see what's happening enough that I can explain it over the phone. Here, let's take a look. This is what it looks like to create a new CNAME record in Cloudflare using javascript with Pulumi:\n\n```\nif (stack.startsWith('qa-')) {\n    const record = new cloudflare.Record(`${commitHash}-record`, {\n        zoneId: \"\",\n        name: `${commitHash}.qa.${domain}`,\n        value: pagesProject.url,\n        type: \"CNAME\",\n        ttl: 1,\n    });\n}\n```  \nAnd now here's the same thing in HCL with Terraform:\n```\nresource \"cloudflare_record\" \"record\" {\n  count        = var.stack_name != null && var.stack_name != \"\" && substr(var.stack_name, 0, 3) == \"qa-\" ? 1 : 0\n  zone_id      = var.zone_id\n  name         = \"${var.commit_hash}.qa.${var.domain}\"\n  value        = var.pages_project_url\n  type         = \"CNAME\"\n  ttl          = 1\n  proxied      = false\n}\n```  \nLook at that conditional in HCL. We have to consolidate it into one mile-long ternary operator, and we have to use a substring function and explicitly state the index range. While there is obviously a time and place for a ternary operator, this isn't it, and HCL doesn't support if-else statements, so this is pretty much as good as it gets.  This is really just the tip of the iceberg though.  I'm working on some pretty magnificent automation right now that I'll be sure to write about once it's done, but it involves dynamically creating entire production-like environments for QA.  I'll do what I can to generate it in HCL for comparison, but I genuinely can't imagine trying to use HCL as a fully-featured programming language."
 				}
 			}
 		});
@@ -4433,8 +4441,8 @@ function create_fragment$6(ctx) {
 					"url": "https://images.unsplash.com/photo-1577717707588-58e49821e851?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
 					"size": null
 				},
-				title: "Article",
-				description: "This is an article discussing the merits of something or another.",
+				title: "Pulumi > Terraform",
+				description: "There can only be one IaC... not really, but really.",
 				heading: "",
 				email: "",
 				social_links: [
@@ -4472,8 +4480,8 @@ function create_fragment$6(ctx) {
 					"url": "https://images.unsplash.com/photo-1577717707588-58e49821e851?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80",
 					"size": null
 				},
-				title: "Article",
-				description: "This is an article discussing the merits of something or another."
+				title: "Pulumi > Terraform",
+				description: "There can only be one IaC... not really, but really."
 			}
 		});
 

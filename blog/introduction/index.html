@@ -3,7 +3,7 @@
 
 <head>
     <meta name="generator" content="Primo" />
-    <title>Pulumi > Terraform</title><!-- HEAD_svelte-1pww12a_START -->
+    <title>Article</title><!-- HEAD_svelte-1pww12a_START -->
     <link rel="shortcut icon" type="image/jpg" sizes="32x32" href="https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg">
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=inter:100,200,300,400,500,600,700,800,900" rel="stylesheet">
@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.4.0/dist/themes/light.css">
     <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.4.0/dist/shoelace-autoloader.js"></script>
     <link rel="shortcut icon" type="image/jpg" sizes="32x32" href="https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg">
-    <meta name="description" content="There can only be one IaC... not really, but really.">
+    <meta name="description" content="This is an article discussing the merits of something or another.">
     <meta property="og:image" content="https://images.unsplash.com/photo-1577717707588-58e49821e851?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2370&amp;q=80">
     <meta name="twitter:image" content="https://images.unsplash.com/photo-1577717707588-58e49821e851?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2370&amp;q=80">
     <style>
@@ -307,10 +307,10 @@
 
 <body id="page">
 
-    <div class="section" id="section-98a14a01">
+    <div class="section" id="section-0da74675">
         <header class="section-container svelte-ngjace">
             <div class="desktop-nav svelte-ngjace"><a href="/" class="logo svelte-ngjace"></a>
-                <nav class="svelte-ngjace"><a class="link svelte-ngjace" href="/">Home</a><a class="link svelte-ngjace" href="/blog">Blog</a><a class="link svelte-ngjace" href="/about">About</a></nav>
+                <nav class="svelte-ngjace"><a class="link svelte-ngjace" href="http://localhost:5173/theme-blog">Home</a><a class="link svelte-ngjace" href="http://localhost:5173/about">About</a><a class="link svelte-ngjace" href="/blog">Blog</a></nav>
             </div>
             <div class="mobile-nav svelte-ngjace"><a href="/" class="logo svelte-ngjace"></a>
                 <button id="open" aria-label="Open mobile navigation"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden role="img" width="30" height="30" viewBox="0 0 24 24" class="iconify iconify--eva"><!-- HTML_TAG_START -->
@@ -327,44 +327,20 @@
             </div>
         </header>
     </div>
-    <div class="section" id="section-36c9237e">
-        <header class="section-container svelte-1b2zbzi"><span class="superhead svelte-1b2zbzi">JULY 22, 2023 </span>
-            <h1 class="heading svelte-1b2zbzi">Pulumi > Terraform</h1>
-            <img src="https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/ivan-bandura-Wv2U24G2F78-unsplash.jpg1690034731474" alt="" class="svelte-1b2zbzi">
+    <div class="section" id="section-eb6dbe28">
+        <header class="section-container svelte-1b2zbzi"><span class="superhead svelte-1b2zbzi">JULY 22, 2023</span>
+            <h1 class="heading svelte-1b2zbzi">Where do I begin?</h1>
+            <img src="https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/jj-ying-8bghKxNU1j0-unsplash.jpg1690028953198" alt="" class="svelte-1b2zbzi">
         </header>
     </div>
-    <div class="section" id="section-c626c2a4">
+    <div class="section" id="section-d19b1912">
         <div class="section">
             <div class="section-container content svelte-1lugy4n"><!-- HTML_TAG_START -->
-                <p>Before I worked at TTI, I had a little bit of experience with Terraform, and a lot with Ansible. My initial goal, since we were moving to containers and not VMs, was to eliminate any need for Ansible. Easy enough… kind of. However, I anticipated that I would begin developing complex Terraform configurations. Despite my friend and colleague suggesting I look at Pulumi, I was dead set on Terraform. I was trying to plan for the future. One day, I'll probably get to have another devops engineer join the team, and they will most likely know Terraform. HOWEVER… HCL syntax is really easy to forget, whereas I'm relatively comfortable with basic javascript. So I humored my friend, and I spun up GitLab in EC2 using Pulumi. Bye bye Terraform. It was too easy. And all the developers know JavaScript, so if something needs to happen and I'm not at my keyboard, at least they'll be able to read through it and see what's happening enough that I can explain it over the phone. Here, let's take a look. This is what it looks like to create a new CNAME record in Cloudflare using javascript with Pulumi:</p>
-                <pre><code class="hljs"><span class="hljs-keyword">if</span> (stack.startsWith(<span class="hljs-string">&#x27;qa-&#x27;</span>)) {
-    const record = <span class="hljs-keyword">new</span> cloudflare.Record(<span class="hljs-string">`<span class="hljs-subst">${commitHash}</span>-record`</span>, {
-        <span class="hljs-attr">zoneId</span>: <span class="hljs-string">&quot;&quot;</span>,
-        <span class="hljs-attr">name</span>: <span class="hljs-string">`<span class="hljs-subst">${commitHash}</span>.qa.<span class="hljs-subst">${<span class="hljs-built_in">domain</span>}</span>`</span>,
-        <span class="hljs-attr">value</span>: pagesProject.url,
-        <span class="hljs-attr">type</span>: <span class="hljs-string">&quot;CNAME&quot;</span>,
-        <span class="hljs-attr">ttl</span>: <span class="hljs-number">1</span>,
-    });
-}
-</code></pre>
-                <p><br />
-                    And now here's the same thing in HCL with Terraform:</p>
-                <pre><code class="hljs">resource <span class="hljs-string">&quot;cloudflare_record&quot;</span> <span class="hljs-string">&quot;record&quot;</span> {
-  count        = <span class="hljs-keyword">var</span>.stack_name != <span class="hljs-keyword">null</span> &amp;&amp; <span class="hljs-keyword">var</span>.stack_name != <span class="hljs-string">&quot;&quot;</span> &amp;&amp; substr(<span class="hljs-keyword">var</span>.stack_name, <span class="hljs-number">0</span>, <span class="hljs-number">3</span>) == <span class="hljs-string">&quot;qa-&quot;</span> ? <span class="hljs-number">1</span> : <span class="hljs-number">0</span>
-  zone_id      = <span class="hljs-keyword">var</span>.zone_id
-  name         = <span class="hljs-string">&quot;<span class="hljs-subst">${var.commit_hash}</span>.qa.<span class="hljs-subst">${var.domain}</span>&quot;</span>
-  value        = <span class="hljs-keyword">var</span>.pages_project_url
-  type         = <span class="hljs-string">&quot;CNAME&quot;</span>
-  ttl          = <span class="hljs-number">1</span>
-  proxied      = <span class="hljs-keyword">false</span>
-}
-</code></pre>
-                <p><br />
-                    Look at that conditional in HCL. We have to consolidate it into one mile-long ternary operator, and we have to use a substring function and explicitly state the index range. While there is obviously a time and place for a ternary operator, this isn't it, and HCL doesn't support if-else statements, so this is pretty much as good as it gets. This is really just the tip of the iceberg though. I'm working on some pretty magnificent automation right now that I'll be sure to write about once it's done, but it involves dynamically creating entire production-like environments for QA. I'll do what I can to generate it in HCL for comparison, but I genuinely can't imagine trying to use HCL as a fully-featured programming language.</p><!-- HTML_TAG_END -->
+                <p>I started working at TTI at the end of June, so everything is still really new and fresh. I'm the first devops engineer on the team, and the plan is to move everything off of Rackspace and into AWS. It is an enormous undertaking, but an interesting one. I've been incredibly verbose in our Slack workspace in order to be as visible as possible with what I'm doing. My hope is that it preemptively answers some questions before they're even asked, and that people will call out if they see me doing anything that they'd like to have input on. It's been working well I think. But aside from trying to open some communication channels, writing it all out helps me consider the many caveats the plague every single thing I try to set up. Kind of like "rubber duck debugging", but with less rubber ducks. Anyway, I realized that I'm writing all of this stuff, and it'll all be forever lost in the eternal archives of Slack channel histories. So instead, I'm going to start writing it all here. I think what I'm working on is incredibly interesting and exciting, and I imagine some other people might find it interesting and exciting as well. So here we go, everyone!</p><!-- HTML_TAG_END -->
             </div>
         </div>
     </div>
-    <div class="section" id="section-f42f128e">
+    <div class="section" id="section-24e57a87">
         <footer>
             <div class="section-container svelte-1excgdw">
                 <hr class="svelte-1excgdw">

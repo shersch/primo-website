@@ -4430,12 +4430,20 @@ function create_fragment$5(ctx) {
 					"title": ""
 				},
 				site_nav: [
-					{ "link": { "url": "/", "label": "Home" } },
 					{
-						"link": { "url": "/blog", "label": "Blog" }
+						"link": {
+							"url": "http://localhost:5173/theme-blog",
+							"label": "Home"
+						}
 					},
 					{
-						"link": { "url": "/about", "label": "About" }
+						"link": {
+							"url": "http://localhost:5173/about",
+							"label": "About"
+						}
+					},
+					{
+						"link": { "url": "/blog", "label": "Blog" }
 					}
 				]
 			}
@@ -4462,7 +4470,7 @@ function create_fragment$5(ctx) {
 					{
 						"date": "July 22, 2023",
 						"link": {
-							"url": "/blog/article3",
+							"url": "/blog/pulumi-over-terraform",
 							"label": "Pulumi > Terraform"
 						},
 						"thumbnail": {
@@ -4479,7 +4487,7 @@ function create_fragment$5(ctx) {
 					{
 						"date": "July 22, 2023",
 						"link": {
-							"url": "/blog/article1",
+							"url": "/blog/introduction",
 							"label": "Where do I begin?",
 							"active": false
 						},
