@@ -3004,7 +3004,7 @@ function get_each_context_1(ctx, list, i) {
 	return child_ctx;
 }
 
-// (104:31) 
+// (106:31) 
 function create_if_block_4(ctx) {
 	let img;
 	let img_src_value;
@@ -3041,7 +3041,7 @@ function create_if_block_4(ctx) {
 	};
 }
 
-// (102:6) {#if logo.title}
+// (104:6) {#if logo.title}
 function create_if_block_3(ctx) {
 	let t_value = /*logo*/ ctx[0].title + "";
 	let t;
@@ -3065,7 +3065,7 @@ function create_if_block_3(ctx) {
 	};
 }
 
-// (109:6) {#each site_nav as { link }}
+// (111:6) {#each site_nav as { link }}
 function create_each_block_1(ctx) {
 	let a;
 	let t_value = /*link*/ ctx[7].label + "";
@@ -3086,7 +3086,7 @@ function create_each_block_1(ctx) {
 			this.h();
 		},
 		h() {
-			attr(a, "class", "link svelte-ngjace");
+			attr(a, "class", "link svelte-1qqtbm5");
 			attr(a, "href", a_href_value = /*link*/ ctx[7].url);
 			toggle_class(a, "active", /*link*/ ctx[7].url === window.location.pathname);
 		},
@@ -3111,7 +3111,7 @@ function create_each_block_1(ctx) {
 	};
 }
 
-// (121:31) 
+// (123:31) 
 function create_if_block_2(ctx) {
 	let img;
 	let img_src_value;
@@ -3148,7 +3148,7 @@ function create_if_block_2(ctx) {
 	};
 }
 
-// (119:6) {#if logo.title}
+// (121:6) {#if logo.title}
 function create_if_block_1$1(ctx) {
 	let t_value = /*logo*/ ctx[0].title + "";
 	let t;
@@ -3172,7 +3172,7 @@ function create_if_block_1$1(ctx) {
 	};
 }
 
-// (131:4) {#if mobileNavOpen}
+// (133:4) {#if mobileNavOpen}
 function create_if_block$1(ctx) {
 	let nav;
 	let t;
@@ -3229,9 +3229,9 @@ function create_if_block$1(ctx) {
 		h() {
 			attr(button, "id", "close");
 			attr(button, "aria-label", "Close Navigation");
-			attr(button, "class", "svelte-ngjace");
+			attr(button, "class", "svelte-1qqtbm5");
 			attr(nav, "id", "popup");
-			attr(nav, "class", "svelte-ngjace");
+			attr(nav, "class", "svelte-1qqtbm5");
 		},
 		m(target, anchor) {
 			insert_hydration(target, nav, anchor);
@@ -3305,7 +3305,7 @@ function create_if_block$1(ctx) {
 	};
 }
 
-// (133:8) {#each site_nav as { link }}
+// (135:8) {#each site_nav as { link }}
 function create_each_block(ctx) {
 	let a;
 	let t_value = /*link*/ ctx[7].label + "";
@@ -3458,15 +3458,15 @@ function create_fragment$2(ctx) {
 		},
 		h() {
 			attr(a0, "href", "/");
-			attr(a0, "class", "logo svelte-ngjace");
-			attr(nav, "class", "svelte-ngjace");
-			attr(div0, "class", "desktop-nav svelte-ngjace");
+			attr(a0, "class", "logo svelte-1qqtbm5");
+			attr(nav, "class", "svelte-1qqtbm5");
+			attr(div0, "class", "desktop-nav svelte-1qqtbm5");
 			attr(a1, "href", "/");
-			attr(a1, "class", "logo svelte-ngjace");
+			attr(a1, "class", "logo svelte-1qqtbm5");
 			attr(button, "id", "open");
 			attr(button, "aria-label", "Open mobile navigation");
-			attr(div1, "class", "mobile-nav svelte-ngjace");
-			attr(header, "class", "section-container svelte-ngjace");
+			attr(div1, "class", "mobile-nav svelte-1qqtbm5");
+			attr(header, "class", "section-container svelte-1qqtbm5");
 			attr(div2, "class", "section");
 			attr(div2, "id", "section-240df135");
 		},
@@ -4203,32 +4203,21 @@ function create_fragment$4(ctx) {
 					"size": 1
 				},
 				logo: {
+					"title": "",
 					"image": {
 						"alt": "",
-						"src": "",
-						"url": "",
+						"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
+						"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 						"size": null
-					},
-					"title": ""
+					}
 				},
 				site_nav: [
-					{
-						"link": {
-							"url": "http://localhost:5173/theme-blog",
-							"label": "Home"
-						}
-					},
-					{
-						"link": {
-							"url": "http://localhost:5173/about",
-							"label": "About"
-						}
-					},
+					{ "link": { "url": "/", "label": "Home" } },
 					{
 						"link": { "url": "/blog", "label": "Blog" }
 					},
 					{
-						"link": { "label": "Contact", "url": "/contact" }
+						"link": { "url": "/about", "label": "About" }
 					}
 				]
 			}
