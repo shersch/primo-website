@@ -4470,6 +4470,23 @@ function create_fragment$5(ctx) {
 					{
 						"date": "July 23, 2023",
 						"link": {
+							"url": "/blog/running-portainer-on-synology",
+							"label": "Running Portainer on Synology"
+						},
+						"thumbnail": {
+							"alt": "",
+							"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1690070759838portainer.webp",
+							"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1690070759838portainer.webp",
+							"size": null
+						},
+						"description": {
+							"html": "<p>We don't need no stinkin' Container Manager.</p>",
+							"markdown": "We don't need no stinkin' Container Manager."
+						}
+					},
+					{
+						"date": "July 23, 2023",
+						"link": {
 							"url": "/blog/the-state-of-synology",
 							"label": "The Stat of Synology"
 						},

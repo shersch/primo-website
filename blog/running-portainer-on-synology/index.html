@@ -333,7 +333,7 @@
 
 <body id="page">
 
-    <div class="section" id="section-98a14a01">
+    <div class="section" id="section-1f4c2c60">
         <header class="section-container svelte-ngjace">
             <div class="desktop-nav svelte-ngjace"><a href="/" class="logo svelte-ngjace"></a>
                 <nav class="svelte-ngjace"><a class="link svelte-ngjace" href="http://localhost:5173/theme-blog">Home</a><a class="link svelte-ngjace" href="http://localhost:5173/about">About</a><a class="link svelte-ngjace" href="/blog">Blog</a></nav>
@@ -343,44 +343,74 @@
             </div>
         </header>
     </div>
-    <div class="section" id="section-36c9237e">
-        <header class="section-container svelte-1b2zbzi"><span class="superhead svelte-1b2zbzi">JULY 22, 2023 </span>
-            <h1 class="heading svelte-1b2zbzi">Pulumi > Terraform</h1>
-            <img src="https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/ivan-bandura-Wv2U24G2F78-unsplash.jpg1690034731474" alt="" class="svelte-1b2zbzi">
+    <div class="section" id="section-847de832">
+        <header class="section-container svelte-1b2zbzi"><span class="superhead svelte-1b2zbzi">JULY 23, 2023 </span>
+            <h1 class="heading svelte-1b2zbzi">Running Portainer on Synology</h1>
+            <img src="https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1690070759838portainer.webp" alt="" class="svelte-1b2zbzi">
         </header>
     </div>
-    <div class="section" id="section-c626c2a4">
+    <div class="section" id="section-42768545">
         <div class="section">
             <div class="section-container content svelte-1tovuol"><!-- HTML_TAG_START -->
-                <p>Before I worked at TTI, I had a little bit of experience with Terraform, and a lot with Ansible. My initial goal, since we were moving to containers and not VMs, was to eliminate any need for Ansible. Easy enough… kind of. However, I anticipated that I would begin developing complex Terraform configurations. Despite my friend and colleague suggesting I look at Pulumi, I was dead set on Terraform. I was trying to plan for the future. One day, I'll probably get to have another devops engineer join the team, and they will most likely know Terraform. HOWEVER… HCL syntax is really easy to forget, whereas I'm relatively comfortable with basic javascript. So I humored my friend, and I spun up GitLab in EC2 using Pulumi. Bye bye Terraform. It was too easy. And all the developers know JavaScript, so if something needs to happen and I'm not at my keyboard, at least they'll be able to read through it and see what's happening enough that I can explain it over the phone. Here, let's take a look. This is what it looks like to create a new CNAME record in Cloudflare using javascript with Pulumi:</p>
-                <pre><code class="hljs"><span class="hljs-keyword">if</span> (stack.startsWith(<span class="hljs-string">&#x27;qa-&#x27;</span>)) {
-    const record = <span class="hljs-keyword">new</span> cloudflare.Record(<span class="hljs-string">`<span class="hljs-subst">${commitHash}</span>-record`</span>, {
-        <span class="hljs-attr">zoneId</span>: <span class="hljs-string">&quot;&quot;</span>,
-        <span class="hljs-attr">name</span>: <span class="hljs-string">`<span class="hljs-subst">${commitHash}</span>.qa.<span class="hljs-subst">${<span class="hljs-built_in">domain</span>}</span>`</span>,
-        <span class="hljs-attr">value</span>: pagesProject.url,
-        <span class="hljs-attr">type</span>: <span class="hljs-string">&quot;CNAME&quot;</span>,
-        <span class="hljs-attr">ttl</span>: <span class="hljs-number">1</span>,
-    });
-}
+                <p>I'll just assume you read my previous rant about how Synology is seemingly taking steps that are working against the best interest of themselves and of their customers. Whether you agree with that or not is entirely up to you, but one thing we can all get behind is that their attempts to create a useful, full-featured UI for managing Docker containers continue to fall short. That's ok though, we have <a href="https://portainer.io/">Portainer</a>. </p>
+                <p>In case you aren't aware of it, Portainer is a UI for all of your container management needs. You can create a one-off container, you can manage Docker Compose stacks, you can use webhooks to automate deployments and container updates, and if you have a bunch of machines running Portainer, you can manage a Docker Swarm, or even a Kubernetes Cluster. If I were Synology, I would give up my efforts on trying to build a UI, and I'd strike a deal with Portainer to implement the Community Edition directly into DSM. But hey, Synology has never asked for my advice. No matter, we'll do it without them. </p>
+                <h3 id="prerequisites">Pre-Requisites</h3>
+                <p>There are a couple of pre-requisites for this that I'm not going to get into. Arguably, this whole article is probably redundant, but installing Docker and enabling SSH via Synology DSM are probably among the first things anyone would do while setting one up. If for some reason, those things aren't done, I am certain that a quick Google search of "Synology enable SSH" and "Synology install docker" will lead you to very clear instructions. </p>
+                <p>I highly recommend creating a top-level shared folder in DSM specifically for your Docker containers. It is a good place to create shared volumes that store configuration information. In this example, I will assume that you have a shared folder called "docker". Inside that folder, create another directory called "portainer". I recommend not using capitalization, as it does matter when you're navigating the file system via SSH. </p>
+                <h3 id="connectingtothesynology">Connecting to the Synology</h3>
+                <p>Great, we have our directory. Time to SSH. In your terminal of choice, you can SSH into your Synology via this command:<br />
+                    <code>ssh user@synology_ip_address</code>
+                </p>
+                <p>If you are using a non-standard port, then you can do this:
+                    <code>ssh user@synology_ip_address -p 1234</code>
+                </p>
+                <p>You'll then be prompted for your password; punch it in and hit enter.</p>
+                <h3 id="addingtheportainerconfiguration">Adding the Portainer configuration</h3>
+                <p>Ok, so now that you're connected to your Synology, we can get Portainer ready to go. Let's navigate to the "portainer" directory that we created earlier. You can do that with this comand:<br />
+                    <code>cd /volume1/docker/portainer</code>
+                </p>
+                <p>Now it's time to create and edit our container configuration. Let's use Vim! Use this command to create the file and automatically open the editor:<br />
+                    <code>vim docker-compose.yml</code>
+                </p>
+                <p>Take note that the file must be called <code>docker-compose.yml</code> with no capitalization. After you run that, you should see a relatively blank screen. You can either copy and paste this into it, or you can type <code>i</code> and start writing it in yourself.</p>
+                <pre><code class="hljs">version: <span class="hljs-string">&quot;3&quot;</span>
+services:
+  portainer:
+    image: portainer/portainer-ce
+    container_name: portainer
+    command: -H unix:<span class="hljs-regexp">//</span><span class="hljs-regexp">/var/</span>run/docker.sock
+    restart: always
+    ports:
+      - <span class="hljs-string">&quot;8000:8000&quot;</span>
+      - <span class="hljs-string">&quot;9000:9000&quot;</span>
+      - <span class="hljs-string">&quot;9443:9443&quot;</span>
+    volumes:
+      - <span class="hljs-regexp">/var/</span>run<span class="hljs-regexp">/docker.sock:/</span>var<span class="hljs-regexp">/run/</span>docker.sock
+      - <span class="hljs-regexp">/volume1/</span>docker<span class="hljs-regexp">/portainer:/</span>data
 </code></pre>
                 <p><br />
-                    And now here's the same thing in HCL with Terraform:</p>
-                <pre><code class="hljs">resource <span class="hljs-string">&quot;cloudflare_record&quot;</span> <span class="hljs-string">&quot;record&quot;</span> {
-  count        = <span class="hljs-keyword">var</span>.stack_name != <span class="hljs-keyword">null</span> &amp;&amp; <span class="hljs-keyword">var</span>.stack_name != <span class="hljs-string">&quot;&quot;</span> &amp;&amp; substr(<span class="hljs-keyword">var</span>.stack_name, <span class="hljs-number">0</span>, <span class="hljs-number">3</span>) == <span class="hljs-string">&quot;qa-&quot;</span> ? <span class="hljs-number">1</span> : <span class="hljs-number">0</span>
-  zone_id      = <span class="hljs-keyword">var</span>.zone_id
-  name         = <span class="hljs-string">&quot;<span class="hljs-subst">${var.commit_hash}</span>.qa.<span class="hljs-subst">${var.domain}</span>&quot;</span>
-  value        = <span class="hljs-keyword">var</span>.pages_project_url
-  type         = <span class="hljs-string">&quot;CNAME&quot;</span>
-  ttl          = <span class="hljs-number">1</span>
-  proxied      = <span class="hljs-keyword">false</span>
-}
+                    Realistically, you can (and perhaps should) keep this configuration as is, but for the sake of understanding, let's take a look at a couple of its components. The command option allows Portainer to interact with the Docker daemon running on the host machine (in this case, the Synology). It accomplishes this by utilizing the -H unix:///var/run/docker.sock argument, which instructs Portainer to connect directly to the Docker daemon. This connection is feasible because we've mapped the Docker socket file in the volumes section. This mapping makes the Docker socket file from the host machine accessible to the Portainer container, enabling direct communication between Portainer and the Docker daemon. Now, if you're not using the <code>/volume1/docker/portainer</code> directory that I suggested earlier, you will need to update this configuration to reflect the directory of your choice. And finally, let's review the port mapping. Port 8000 is used for Portainer's "edge compute" functions, so you most likely can delete that line unless you are deliberately planning to use those features. Of course, you can add it back later if you want. Port 9000 serves up the Portainer UI over HTTP. This is regarded as "legacy" because they encourage you to use an encrypted connection, but if your SSL termination is done via an external proxy, you may want to use this. Port 9443 is where the UI is served via HTTPS. You can use Portainer's UI for your SSL encryption if you choose, but I will continue under the assumption that SSL will be handled through a third party tool like Nginx Proxy Manager or SWAG from Linuxserver.io. Therefore, port 9000 is really the only one we need.</p>
+                <h3 id="licensing">Licensing</h3>
+                <p>This is mostly irrelevant, but Portainer does offer a free enterprise license for users that run 5 or fewer instances of Portainer. You can download the license file from their website and add it to <code>/volume1/docker/portainer</code>. Additionally, if you want to use the enterprise version of Portainer, you should change the image in the above yaml to <code>portainer/portainer-ee</code>.</p>
+                <h3 id="startingportainer">Starting Portainer</h3>
+                <p>Ok, so your <code>docker-compose.yml</code> file is ready to go. In order to save and exit Vim, hit the <code>escape</code> key, then type <code>:wq</code>. You will now find yourself back in the terminal, and your current directory is the <code>/volume/docker/portainer</code> directory. We're now ready to fire up Portainer. This is the command you will use:</p>
+                <pre><code class="hljs"><span class="hljs-attribute">docker-compose up -d</span>
 </code></pre>
                 <p><br />
-                    We are forced to use a mile-long ternary operator that extends way off the page, and we have to use a substring function and explicitly state the index range. While there is obviously a time and place for a ternary operator, this isn't it, and HCL doesn't support if-else statements, so this is pretty much as good as it gets. This is really just the tip of the iceberg though. I'm working on some pretty magnificent automation right now that I'll be sure to write about once it's done, but it involves dynamically creating entire production-like environments for QA. I'll do what I can to generate it in HCL for comparison, but I genuinely can't imagine trying to use HCL as a fully-featured programming language.</p><!-- HTML_TAG_END -->
+                    What this command does is quite simple. You are using docker compose to launch the stack using the <code>up</code> argument. The <code>-d</code> flag runs the command in "detached" mode, which prevents the container from receiving input from the terminal and forces the command to run in the background. Once the command is done running, you can navigate to Portainer in your web browser: <code>http://synology_ip_address:9000</code> </p>
+                <h3 id="updating">Updating</h3>
+                <p>Portainer frequently has updates; some of which bring some pretty cool features. If you ever want to update your Portainer instance to the latest version, all you have to do is SSH into your Synology again, navigate to the Portainer directory again, and run the following two commands:</p>
+                <pre><code class="hljs">docker-compose pull
+docker-compose up -d <span class="hljs-comment">--force-recreate</span>
+</code></pre>
+                <p><br />
+                    This will pull down the new Docker image, delete your active containers, and create new ones with the latest image. Don't worry, your configuration is still saved in the mapped volume!</p>
+                <h3 id="conclusion">Conclusion</h3>
+                <p>DSM7.2 brought us a new container management tool, aptly named "Contanier Manager", but it's too little too late. Using Portainer to interface with your Synology's Docker instance gives you access to the full capabilities of Docker with no limits or compromises while also keeping you from having to remember terminal commands. This is the way.</p><!-- HTML_TAG_END -->
             </div>
         </div>
     </div>
-    <div class="section" id="section-f42f128e">
+    <div class="section" id="section-b67a16ad">
         <footer>
             <div class="section-container svelte-1excgdw">
                 <hr class="svelte-1excgdw">

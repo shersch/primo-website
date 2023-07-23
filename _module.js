@@ -4605,7 +4605,7 @@ function create_fragment$6(ctx) {
 				description: "",
 				heading: "I'm Steve.",
 				content: {
-					"html": "<p>I'm a DevOps Engineer. I work at <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"link link\" href=\"https://www.ttigroup.com/\">Techtronic Industries (TTI)</a>, and we're doing some pretty cool stuff there right now. Aside from that, I have about 40 containers running on my Synology, so I'm sure I'll be sharing some configuration stuff there as well. Take a look around; maybe you'll find something interesting.</p>",
+					"html": "<p>I'm a DevOps Engineer. I work at <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"link link link\" href=\"https://www.ttigroup.com/\">Techtronic Industries (TTI)</a>, and we're doing some pretty cool stuff there right now. Aside from that, I have about 40 containers running on my Synology, so I'm sure I'll be sharing some configuration stuff there as well. Take a look around; maybe you'll find something interesting.</p>",
 					"markdown": "I'm a DevOps Engineer. I work at [Techtronic Industries (TTI)](<https://www.ttigroup.com/>), and we're doing some pretty cool stuff there right now. Aside from that, I have about 40 containers running on my Synology, so I'm sure I'll be sharing some configuration stuff there as well. Take a look around; maybe you'll find something interesting.\n\n"
 				}
 			}
@@ -4624,6 +4624,23 @@ function create_fragment$6(ctx) {
 				description: "",
 				heading: "Featured Posts",
 				items: [
+					{
+						"date": "July 23, 2023",
+						"link": {
+							"url": "/blog/running-portainer-on-synology",
+							"label": "Running Portainer on Synology"
+						},
+						"thumbnail": {
+							"alt": "",
+							"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1690070759838portainer.webp",
+							"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1690070759838portainer.webp",
+							"size": null
+						},
+						"description": {
+							"html": "<p>We don't need no stickin' Container Manager</p>",
+							"markdown": "We don't need no stickin' Container Manager"
+						}
+					},
 					{
 						"date": "July 23, 2023",
 						"link": {
