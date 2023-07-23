@@ -4629,8 +4629,8 @@ function create_fragment$6(ctx) {
 							"size": null
 						},
 						"description": {
-							"html": "<p>We don't need no stickin' Container Manager</p>",
-							"markdown": "We don't need no stickin' Container Manager"
+							"html": "<p>We don't need no stickin' Container Manager.</p>",
+							"markdown": "We don't need no stickin' Container Manager."
 						}
 					},
 					{

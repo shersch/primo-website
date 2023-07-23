@@ -4480,7 +4480,7 @@ function create_fragment$5(ctx) {
 						"date": "July 23, 2023",
 						"link": {
 							"url": "/blog/the-state-of-synology",
-							"label": "The Stat of Synology"
+							"label": "The State of Synology"
 						},
 						"thumbnail": {
 							"alt": "",
