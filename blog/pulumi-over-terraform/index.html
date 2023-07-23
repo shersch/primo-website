@@ -364,20 +364,22 @@
     <div class="section" id="section-c626c2a4">
         <div class="section">
             <div class="section-container content svelte-1tovuol"><!-- HTML_TAG_START -->
-                <p>Before I worked at TTI, I had a little bit of experience with Terraform, and a lot with Ansible. My initial goal, since we were moving to containers and not VMs, was to eliminate any need for Ansible. Easy enough… kind of. However, I anticipated that I would begin developing complex Terraform configurations. Despite my friend and colleague suggesting I look at Pulumi, I was dead set on Terraform. I was trying to plan for the future. One day, I'll probably get to have another devops engineer join the team, and they will most likely know Terraform. HOWEVER… HCL syntax is really easy to forget, whereas I'm relatively comfortable with basic javascript. So I humored my friend, and I spun up GitLab in EC2 using Pulumi. Bye bye Terraform. It was too easy. And all the developers know JavaScript, so if something needs to happen and I'm not at my keyboard, at least they'll be able to read through it and see what's happening enough that I can explain it over the phone. Here, let's take a look. This is what it looks like to create a new CNAME record in Cloudflare using javascript with Pulumi:</p>
-                <pre><code class="hljs"><span class="hljs-keyword">if</span> (stack.startsWith(<span class="hljs-string">&#x27;qa-&#x27;</span>)) {
-    const record = <span class="hljs-keyword">new</span> cloudflare.Record(<span class="hljs-string">`<span class="hljs-subst">${commitHash}</span>-record`</span>, {
+                <p>Before I joined TTI, my infrastructure-as-code (IaC) tool of choice was Terraform. Think of it as the brand-name Swiss Army knife for managing your infrastructure; in theory, it has all the tools you need, and everyone knows it. For exactly those reasons, I ignored my friend’s suggestions to explore Pulumi for quite some time. I planned to go full-speed ahead with Terraform at TTI. After all, any new DevOps engineer joining our team would likely be well-acquainted with Terraform.</p>
+                <p>However, wrestling with Terraform's HashiCorp Configuration Language (HCL) syntax can feel like learning a new language every time you use it after a break. It's one of those things that's easy to forget if you're not working with it regularly. On the other hand, I know Python and (some) JavaScript. So, in the spirit of experimenting, I decided to give Pulumi a shot. Lo and behold, I was pleasantly surprised.</p>
+                <p>I took up the task to spin up GitLab in EC2 using Pulumi and Javascript. The process was so seamless, so effortless, that I bid Terraform a swift goodbye. The ease and familiarity of JavaScript meant that not only could I cruise through configurations, but my developer colleagues could as well. And trust me, that's a real lifesaver when you're not around to troubleshoot.</p>
+                <p>To illustrate the difference, consider this: creating a new CNAME record in Cloudflare using JavaScript with Pulumi is as straightforward as:</p>
+                <pre><code class="hljs javascript language-javascript"><span class="hljs-keyword">if</span> (stack.<span class="hljs-title function_">startsWith</span>(<span class="hljs-string">&#x27;qa-&#x27;</span>)) {
+    <span class="hljs-keyword">const</span> record = <span class="hljs-keyword">new</span> cloudflare.<span class="hljs-title class_">Record</span>(<span class="hljs-string">`<span class="hljs-subst">${commitHash}</span>-record`</span>, {
         <span class="hljs-attr">zoneId</span>: <span class="hljs-string">&quot;&quot;</span>,
-        <span class="hljs-attr">name</span>: <span class="hljs-string">`<span class="hljs-subst">${commitHash}</span>.qa.<span class="hljs-subst">${<span class="hljs-built_in">domain</span>}</span>`</span>,
-        <span class="hljs-attr">value</span>: pagesProject.url,
+        <span class="hljs-attr">name</span>: <span class="hljs-string">`<span class="hljs-subst">${commitHash}</span>.qa.<span class="hljs-subst">${domain}</span>`</span>,
+        <span class="hljs-attr">value</span>: pagesProject.<span class="hljs-property">url</span>,
         <span class="hljs-attr">type</span>: <span class="hljs-string">&quot;CNAME&quot;</span>,
         <span class="hljs-attr">ttl</span>: <span class="hljs-number">1</span>,
     });
 }
 </code></pre>
-                <p><br />
-                    And now here's the same thing in HCL with Terraform:</p>
-                <pre><code class="hljs">resource <span class="hljs-string">&quot;cloudflare_record&quot;</span> <span class="hljs-string">&quot;record&quot;</span> {
+                <p>Compare this to the same operation in HCL with Terraform:</p>
+                <pre><code class="hljs hcl language-hcl">resource <span class="hljs-string">&quot;cloudflare_record&quot;</span> <span class="hljs-string">&quot;record&quot;</span> {
   count        = <span class="hljs-keyword">var</span>.stack_name != <span class="hljs-keyword">null</span> &amp;&amp; <span class="hljs-keyword">var</span>.stack_name != <span class="hljs-string">&quot;&quot;</span> &amp;&amp; substr(<span class="hljs-keyword">var</span>.stack_name, <span class="hljs-number">0</span>, <span class="hljs-number">3</span>) == <span class="hljs-string">&quot;qa-&quot;</span> ? <span class="hljs-number">1</span> : <span class="hljs-number">0</span>
   zone_id      = <span class="hljs-keyword">var</span>.zone_id
   name         = <span class="hljs-string">&quot;<span class="hljs-subst">${var.commit_hash}</span>.qa.<span class="hljs-subst">${var.domain}</span>&quot;</span>
@@ -387,8 +389,10 @@
   proxied      = <span class="hljs-keyword">false</span>
 }
 </code></pre>
-                <p><br />
-                    We are forced to use a mile-long ternary operator that extends way off the page, and we have to use a substring function and explicitly state the index range. While there is obviously a time and place for a ternary operator, this isn't it, and HCL doesn't support if-else statements, so this is pretty much as good as it gets. This is really just the tip of the iceberg though. I'm working on some pretty magnificent automation right now that I'll be sure to write about once it's done, but it involves dynamically creating entire production-like environments for QA. I'll do what I can to generate it in HCL for comparison, but I genuinely can't imagine trying to use HCL as a fully-featured programming language.</p><!-- HTML_TAG_END -->
+                <p>With Terraform, you're left forced to use a lengthy ternary operator comprised of substring functions and explicit index ranges. Not to mention that there's no easy way to handle conditional logic as Terraform doesn’t natively support the if-else construct, so ternary operations are as good as it gets.</p>
+                <p>But perhaps the most significant hurdles lie in Terraform's approach to environment management. While workspaces let you manage multiple environments, they all share the same configuration. That's akin to having a single blueprint for all the rooms in a building - it works until you need to customize a room. By leveraging a full-featured programming language like JavaScript, Pulumi enables me to use a single script to accommodate various environments.</p>
+                <p>These challenges that Terraform faces paint a vivid picture of why Pulumi, with its robust programming language support and more advanced state management, won my vote. As I architect some epic automation, dynamically creating production-like environments for QA, I cannot imagine grappling with these Terraform hurdles. </p>
+                <p>But that's a story for another day. So, stay tuned as we venture further into the dynamic infrastructure automation.</p><!-- HTML_TAG_END -->
             </div>
         </div>
     </div>

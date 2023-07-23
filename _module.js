@@ -4614,7 +4614,7 @@ function create_fragment$6(ctx) {
 				image: { "alt": "", "url": "" },
 				title: "Steve Hersch",
 				description: "",
-				heading: "Featured Posts",
+				heading: "Featured Articles",
 				items: [
 					{
 						"date": "July 23, 2023",
