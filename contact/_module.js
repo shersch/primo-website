@@ -4203,13 +4203,13 @@ function create_fragment$4(ctx) {
 					"size": 1
 				},
 				logo: {
-					"title": "",
 					"image": {
 						"alt": "",
 						"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 						"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 						"size": null
-					}
+					},
+					"title": ""
 				},
 				site_nav: [
 					{ "link": { "url": "/", "label": "Home" } },
@@ -4218,6 +4218,9 @@ function create_fragment$4(ctx) {
 					},
 					{
 						"link": { "url": "/about", "label": "About" }
+					},
+					{
+						"link": { "label": "Contact", "url": "/contact" }
 					}
 				]
 			}

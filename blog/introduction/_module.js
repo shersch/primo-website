@@ -4357,13 +4357,13 @@ function create_fragment$6(ctx) {
 				title: "Article",
 				description: "This is an article discussing the merits of something or another.",
 				logo: {
-					"title": "",
 					"image": {
 						"alt": "",
 						"src": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 						"url": "https://kghwomtndmlhmwefzour.supabase.co/storage/v1/object/public/images/4463e179-86de-40c7-9a94-61d251468dc2/1683076594339logo.svg",
 						"size": null
-					}
+					},
+					"title": ""
 				},
 				site_nav: [
 					{ "link": { "url": "/", "label": "Home" } },
@@ -4372,6 +4372,9 @@ function create_fragment$6(ctx) {
 					},
 					{
 						"link": { "url": "/about", "label": "About" }
+					},
+					{
+						"link": { "label": "Contact", "url": "/contact" }
 					}
 				]
 			}
@@ -4437,24 +4440,7 @@ function create_fragment$6(ctx) {
 				description: "This is an article discussing the merits of something or another.",
 				heading: "",
 				email: "",
-				social_links: [
-					{
-						"icon": "mdi:twitter",
-						"link": {
-							"url": "https://twitter.com",
-							"label": "Twitter",
-							"active": false
-						}
-					},
-					{
-						"icon": "mdi:github",
-						"link": {
-							"url": "https://github.com",
-							"label": "Github",
-							"active": false
-						}
-					}
-				]
+				social_links: []
 			}
 		});
 
